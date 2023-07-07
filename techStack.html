@@ -6,23 +6,38 @@
     <title>Assignment </title>
     <style>
         table,th,tr,td{
-            border: 2px solid red;
+            border: 2px solid rgb(77, 92, 202);
             border-collapse: collapse;
         }
+        .heading{
+            color: rgb(91, 127, 226);
+            text-shadow: 4px 1px 0px rgba(91, 127, 226, 0.3);
+            word-spacing:4px ;
+            letter-spacing: 2px;
+        }
+        .head{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .tabledata td{
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+
     </style>
 </head>
 <body>
    
-    <h2>Technology Stack</h2>
+    <h2 class="heading">Technology Stack</h2>
     <table>
         <thead>
             <tr>
-                <th>Sr.No</th>
-                <th>Technology stack</th>
-                <th>Rating</th>
+                <th class="head">Sr.No</th>
+                <th class="head">Technology stack</th>
+                <th class="head">Rating</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tabledata">
             <tr>
                 <td>1</td>
                 <td>HTML</td>

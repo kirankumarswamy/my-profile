@@ -1,26 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProjectDetails</title>
+    <style>
+        *{
+            letter-spacing: 2px;
+            word-spacing: 2px;
+
+        }
+        .heading {
+            color: rgb(91, 127, 226);
+            background-color: azure;
+            text-shadow: 4px 1px 0px rgba(91, 127, 226, 0.3);
+        }
+
+        .details {
+
+            padding-right: 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .roles {
+            color: rgb(15, 84, 244);
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .list li {
+            text-transform: capitalize;
+            font-size: larger;
+        }
+    </style>
 </head>
-<body> 
-    
-    <h2>Project Details</h2> <hr>
-    <p> <strong>Name:</strong> &nbsp; <u> <strong>Student Management</strong></u></p>
-    <p><Strong>Environment:</Strong> &nbsp;<mark> Angular8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,GitHub,Desktop GitHub,Agile and JIRA,IDE-VS Code</mark></p>
-    <p><strong>Team Size:</strong> 06 &nbsp;&nbsp;&nbsp;&nbsp; <strong>Duration:</strong>2021-1<sup>st</sup>July till <u>present</u></p>
-    <p><strong>Project Description:</strong>This project is mainly used for student Management in colleges , where it help to manage student record like <br>student registration,student update information and to see all his or her academic activities like score card,attendence.</p>
+
+<body>
+
+    <h2 class="heading">Project Details</h2>
     <hr>
-    <p><Strong>Roles and Responsibilities:</Strong></p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Designed and implemented the user interface using HTML 5 and CSS <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Work closely with backend developers for code integration <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identifying and troubleshooting issue with front end code <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Worked on GIT as a version control <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Used JIRA for bug tracking <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; implemented project using Agile SCRUM methedology,involved in daily stand up meeting, sprint showcase and sprint retrospective <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Involved in fixing technical issues <hr>
+    <div>
+        <p> <strong class="details">Name:</strong><u><strong class="details">Student Management</strong></u></p>
+        <p><Strong class="details">Environment:</Strong><mark>
+                Angular8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,GitHub,Desktop
+                GitHub,Agile and JIRA,IDE-VS Code</mark></p>
+        <p><strong class="details">Team Size:</strong> 06 <strong
+                class="details" style="margin-left: 10px;">Duration:</strong>2021-1<sup>st</sup>July till
+            <u>present</u>
+        </p>
+        <p><strong class="details">Project Description:</strong><span style="text-transform: capitalize;" >This project
+                is mainly used for student Management in
+                colleges , where it
+                help to manage student record like <br>student registration,student update information and to see all
+                his or
+                her
+                academic activities like score card,attendence.</span></p>
+    </div>
+    <hr>
+    <p><span class="roles">roles and responsibilites</span></p>
+    <ul class="list">
+        <li>Designed and implemented the user interface using HTML 5 and CSS</li> <br>
+        <li>Identifying and troubleshooting issue with front end code</li> <br>
+        <li>Work closely with backend developers for code integration</li> <br>
+        <li>Worked on GIT as a version control</li> <br>
+        <li>Used JIRA for bug tracking </li><br>
+        <li>
+            implemented project using Agile SCRUM methedology,involved in daily stand up meeting, sprint showcase and
+            sprint retrospective</li> <br>
+        <li> Involved in fixing technical issues</li>
+    </ul>
 </body>
+
 </html>

@@ -6,29 +6,37 @@
     <title>HTML HOME PAGE</title>
     <style>
         
-        #carrer{
+        .heading{
             color: rgb(91, 127, 226);
             background-color: azure;
+            word-spacing: 4px;
+            letter-spacing: 2px;
+            text-shadow: 4px 1px 0px rgba(91, 127, 226, 0.3);
+            font-size:larger ;
         }
-        #summary{
-            color:deeppink ;
-            background-color: azure;
-        }
-        span{
+        
+        #angular8{
             color: limegreen;
         }
         #experience{
             color: darkorange;
-
+        }
+        .summary li{
+            text-transform: capitalize;
+            font-size:medium;
+            word-spacing: 4px;
+            letter-spacing: 1px;
+            margin-bottom: 10px ;
         }
     </style>
 </head>
 <body>
-    <h3 id="carrer"><strong>Carrer Objectives</strong></h3>
+    <h3><strong class="heading">Carrer Objectives</strong></h3>
     TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATION <br>
-    <h3 id="summary"><strong>Professional Summary</strong></h3>
-    <ul>
-        <li>Having 1 years of experience in developing single page Web Applications using <span id="">Angular8</span>,HTML5,CSS3,BootStrap,JavaScript,TypeScript</li> <br>
+
+    <h3><strong class="heading">Professional Summary</strong></h3>
+    <ul class="summary">
+        <li>Having 1 years of experience in developing single page Web Applications using <span id="angular8">Angular8</span>,HTML5,CSS3,BootStrap,JavaScript,TypeScript</li> <br>
         <li id="experience">Experience on working with version control system - GIT and GitHub</li> <br>
         <li>Experience working with JIRA for user stories and bug tracking</li> <br>
         <li>Strong Debugging & Troubleshooting code experience using chrome Developer tool</li> <br>

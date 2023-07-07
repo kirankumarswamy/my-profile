@@ -6,27 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Details</title>
     <style>
-        table,th,tr,td{
-            border: 1px solid black;
-            border-collapse: collapse;
-            border-width: 300;
+       
+        .heading{
+            color: rgb(91, 127, 226);
+            text-shadow: 4px 1px 0px rgba(91, 127, 226, 0.3);
+            word-spacing:4px ;
+            letter-spacing: 2px;
+            padding-left: 5px;
+        }
+        .details{
+            letter-spacing: 2px;
+            padding-right: 10px;
+            padding-left: 5px;
+        }
+        .details2{
+            padding-left:2px;
+            letter-spacing: 2px;
+
         }
     </style>
 </head>
 <body>
-    <h2>My Personal Details</h2>
-    <img src="assets/developer.png.jpeg" alt="profile image">
-    <p><strong>Name:</strong>Mohit Sharma</p>
-    <h3>Contact Details</h3>
-    <p>&nbsp;&nbsp;&nbsp;<strong>Mobile:</strong>1234567890</p>
-    <p>&nbsp;&nbsp;&nbsp;<strong>Email:</strong>Mohitsharma@gmail.com</p>
-    <p>&nbsp;&nbsp;&nbsp;<strong>Date of birth:</strong>Aug-03-1999</p>
-    <p>&nbsp;&nbsp;&nbsp;<strong>Address:</strong>Om Vrindavan Colony,pune</p>
+    <h2 class="heading">My Personal Details</h2> <hr>
+
+    <img src="assets/developer.png.jpeg" alt="profile image" style="padding-left: 5px;">
+    <p><strong class="details">Name:</strong><span class="details2">Mohit Sharma</span></p>
+    <h3 class="details">Contact Details</h3>
+    <p><strong class="details">Mobile:</strong><span class="details2">1234567890</span></p>
+    <p><strong class="details">Email:</strong><span class="details2">Mohitsharma@gmail.com</span></p>
+    <p><strong class="details">Date of birth:</strong><span class="details2">Aug-03-1999</span></p>
+    <p><strong class="details">Address:</strong><span class="details2">Om Vrindavan Colony,pune</span></p>
     <details>
-        <summary>Family Details</summary>
+        <summary class="details">Family Details</summary>
         <ul>
-            <li>Father name: Tarak Sharma</li>
-            <li>Mother name:Manika Sharma</li>
+            <li class="details">Father name: Tarak Sharma</li> <br>
+            <li class="details">Mother name:Manika Sharma</li>
         </ul>
     </details>
 </body>
