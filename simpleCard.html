@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@700&family=Signika+Negative:wght@300&family=Sofia+Sans+Semi+Condensed&family=Ubuntu&display=swap" rel="stylesheet">
+   <style>
+    .container{
+        border: 2px solid rgb(90, 23, 157);
+        width:1000px ;
+
+    }
+    .photo-section{
+        display: inline-block;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+    .content-section{
+        display: inline-block; 
+    }
+    .heading{
+        display: inline-block;
+        word-spacing:5px ;
+        letter-spacing: 2px;
+        padding-top:30px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+        font-size: xx-large;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+
+    .points li{
+        margin-left: 60px;
+        padding: 12px;
+        list-style-type: none;
+        text-transform: capitalize;
+        font-size: large;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        margin-top:10px ;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        color: rgb(33, 108, 246);
+    }
+    .points li::before{
+        content: "✍️  ";
+    }
+    .points li:hover{
+        background-color: rgb(96, 233, 238);
+    }
+    #span{
+        color: rgb(66, 121, 242);
+        display:block;
+        padding-top: 10px;
+        padding-left: 185px;
+        /* padding-bottom: 5px; */
+        font-size: large;
+        font-weight: lighter;
+        letter-spacing: 2px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+    #strong{
+        color: rgb(192, 21, 155);
+        display:block;
+        font-size: larger;
+        word-spacing: 4px;
+        padding-left: 105px;
+        letter-spacing: 1px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+    .fa-react{
+        display: inline-block;
+        padding-right:20px ;
+        
+    }
+    #follow{
+            color: rgb(103, 15, 130);
+            text-transform: capitalize;
+            word-spacing: 3px;
+            letter-spacing: 2px;
+            font-weight:bolder ;
+            font-size: x-large;
+            display: inline-block;
+            margin-right: 20px;
+        }
+        #follow:hover{
+        background-color: rgb(217, 217, 44);
+            padding: 5px;
+        }
+        .footer{
+            text-shadow: 4px 1px 0px rgba(108, 21, 185, 0.3);
+            margin-right: 20px;
+            display: inline-block;
+        }
+        footer ul li a i:hover{
+            background-color: rgb(237, 181, 209);
+            width: 35px;
+            height: 35px;
+            padding: 5px;
+        }
+
+        #fonticon{
+            color: rgb(28, 113, 210);
+            
+        }
+   </style>
+</head>
+<body>
+    <div class="container">
+    <div>
+        <div class="photo-section">
+            <img src="assets/developer5 image.png.jpeg" alt="developer profile" width="380px" height="350px">                  
+            <span id="span">Powerd by</span>
+            <strong id="strong"><span><i class=" fa-2x fa-brands fa-react" ></i></span> JSoftwareLabs</strong>
+        </div>
+       
+        <div class="content-section">
+            <h2 class="heading"> Compare Text Online</h2>
+            <ul class="points">
+                <li>Compare Text online free</li>
+                <li>supports large file comparison</li>
+                <li>ignore order and namespacess</li>
+                <li>side by side different view</li>
+                <li>get result in tabular format for quick reference</li>
+                <li>TEXT diff tool</li>
+                <li>REST API</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ul>
+         <span id="follow">Follow Me </span>
+         
+             <li class="footer">
+         <a href="https://www.github.com" ><i class="fa-2x fa-brands fa-github" id="fonticon"></i></a> 
+             </li>
+             <li class="footer">
+                 <a href="https://www.linkedin.com/login"  ><i class=" fa-2x fa-brands fa-linkedin" id="fonticon"></i></a> 
+             </li>
+             <li class="footer">
+         <a href="https://www.instagram.com/accounts/login/" ><i class=" fa-2x fa-brands fa-instagram" id="fonticon"></i></a>
+             </li>
+             <li class="footer">
+         <a href="https://www.facebook.com/login/"><i class=" fa-2x fa-brands fa-facebook" id="fonticon"></i></a>
+             </li>
+     </ul>
+     </footer>
+    </div>
+</body>
+</html>

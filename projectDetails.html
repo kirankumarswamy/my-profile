@@ -10,31 +10,52 @@
         *{
             letter-spacing: 2px;
             word-spacing: 2px;
+            font-size: large;
 
         }
         .heading {
             color: rgb(91, 127, 226);
             background-color: azure;
             text-shadow: 4px 1px 0px rgba(91, 127, 226, 0.3);
+            font-family: 'Poppins', sans-serif;
+            font-size: x-large;
         }
 
         .details {
-
             padding-right: 10px;
             text-decoration: none;
             text-transform: uppercase;
+            font-family: 'Signika Negative', sans-serif;
+
+        }
+        #environment{
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #number{
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        #duration{
+            font-family: 'Signika Negative', sans-serif;
+        }
+        #description{
+            text-transform: capitalize;
+            font-family: 'Signika Negative', sans-serif;
+
         }
 
         .roles {
             color: rgb(15, 84, 244);
             text-transform: uppercase;
-            font-size: larger;
             font-weight: bolder;
+            font-family: 'Poppins', sans-serif;
+
         }
 
         .list li {
             text-transform: capitalize;
-            font-size: larger;
+            font-family: 'Signika Negative', sans-serif;
+
         }
     </style>
 </head>
@@ -45,14 +66,15 @@
     <hr>
     <div>
         <p> <strong class="details">Name:</strong><u><strong class="details">Student Management</strong></u></p>
-        <p><Strong class="details">Environment:</Strong><mark>
+        <p><Strong class="details">Environment:</Strong><mark id="environment">
                 Angular8,TypeScript,JavaScript(ES6),HTML5,CSS,Bootstrap,GitHub,Desktop
                 GitHub,Agile and JIRA,IDE-VS Code</mark></p>
-        <p><strong class="details">Team Size:</strong> 06 <strong
-                class="details" style="margin-left: 10px;">Duration:</strong>2021-1<sup>st</sup>July till
-            <u>present</u>
+        <p><strong class="details">Team Size:</strong> <span id="number">06</span> <strong
+                class="details" style="margin-left: 10px;">Duration:</strong> <span id="duration">2021-1<sup>st</sup>July till <u>present</u></span>
+            
         </p>
-        <p><strong class="details">Project Description:</strong><span style="text-transform: capitalize;" >This project
+        <p><strong class="details">Project Description:</strong><span id="description">
+                  This project
                 is mainly used for student Management in
                 colleges , where it
                 help to manage student record like <br>student registration,student update information and to see all
