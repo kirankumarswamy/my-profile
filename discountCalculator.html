@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins:wght@500&family=Roboto:wght@700&family=Signika+Negative:wght@300&family=Sofia+Sans+Semi+Condensed&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <style>
+       .container{
+        background-color: rgb(71, 159, 159);
+        border: 2px solid brown;
+        width: 540px;
+        margin-left: 100px;
+        margin-top: 20px;
+       }
+        h3{
+            color: rgb(40, 94, 76);
+            font-family: 'Ubuntu', sans-serif;
+            word-spacing: 3px;
+            letter-spacing: 2px;
+            font-size: x-large;
+            /* text-align: center; */
+            margin-left: 150px;
+        }
+        #para1{
+            font-weight: bold ;
+            font-size: large;
+            letter-spacing: 2px;
+            font-family: 'Comic Neue', cursive;
+            padding-left: 30px;
+        }
+        #para2{
+            font-weight: bold ;
+            font-size: large;
+            letter-spacing: 2px;
+            font-family: 'Comic Neue', cursive;
+            padding-left: 30px;
+
+        }
+        #label1{
+            font-size: large;
+            letter-spacing: 2px;
+            font-family: 'Comic Neue', cursive;
+            padding-left: 40px;
+        }
+        #label2{
+            font-size: large;
+            letter-spacing: 2px;
+            font-family: 'Comic Neue', cursive;
+            padding-left: 40px;
+
+        }
+        input[type="text"]{
+            width: 300px;
+            border-radius: 10px;
+            height: 25px;
+            margin-top: 5px;
+            font-size: medium;
+            text-align: center;
+            margin-left: 30px;
+            
+        }
+        input[type="number"]{
+            width: 300px;
+            border-radius: 10px;
+            height: 25px;
+            border-color: rgb(211, 41, 211);
+            margin-top: 5px;
+            margin-left: 30px;
+
+        }
+        button[type="submit"]{
+            background-color: #4caf50;
+            color: rgb(5, 235, 243);
+            width: 320px;
+            border-radius: 10px;
+            height: 30px;
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 1px;
+            margin-left: 26px;
+         }   
+        .btn:hover{
+            background-color: burlywood;
+            color: brown;
+             
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h3>Discount Calculator</h3>
+    <p id="para1">Enter the bill amount and discount in percentage</p>
+    <label for="" id="label1">Bill Amount</label> <br>
+    <input type="text" name="" id="" placeholder="Enter the Amount"> <br> <br>
+    <label for="" id="label2">Discount Percentage</label> <br>
+    <input type="number" name="" id="" value="10" style="font-weight:bold;"  > <br><br>
+    <button type="submit" id="button" class="btn">Calculate</button> <br>
+    <p id="para2">Total Discount Amount</p>
+</div>
+</body>
+</html>
